@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "server": "node server.js"
   },
   "type": "module",
   "keywords": [],
@@ -11,9 +12,11 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "axios": "^1.10.0",
     "canvas": "^3.1.2",
     "sharp": "^0.34.2",
     "simpleble": "^1.2.0",
-    "webbluetooth": "^3.3.2"
+    "webbluetooth": "^3.3.2",
+    "ws": "^8.18.3"
   }
 }
