@@ -1,0 +1,19 @@
+{
+  "name": "testnodebluetooth",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "canvas": "^3.1.2",
+    "sharp": "^0.34.2",
+    "simpleble": "^1.2.0",
+    "webbluetooth": "^3.3.2"
+  }
+}
